@@ -1,0 +1,35 @@
+#ungrouped hosts
+172.32.35.35
+172.31.35.32
+192.31.36.38
+
+[nginx]
+172.31.38.34
+
+[mongodb]
+roboshop-us-dev-db-mongodb-01.joindevops.online/ ip address of instance (172.31.38.34)
+roboshop-us-dev-db-mongodb-02.joindevops.online
+
+[mysql]
+roboshop-us-dev-db-mysql-01.joindevops.online
+roboshop-us-dev-db-mysql-02.joindevops.online
+
+[cart]
+roboshop-in-prod-app-cart-01.joindevops.online
+roboshop-in-prod-app-cart-02.joindevops.online
+roboshop-in-prod-app-cart-03.joindevops.online
+
+[user]
+roboshop-in-prod-app-user-01.joindevops.online
+roboshop-in-prod-app-user-02.joindevops.online
+roboshop-in-prod-app-user-03.joindevops.online
+
+#This refers to group of groups. If we want to push anything to total database group then we will refer to this.
+[db:children] 
+mongodb
+mysql
+
+[app:children]
+user
+cart
+
