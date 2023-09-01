@@ -1,3 +1,3 @@
-############# Hi everyone #################
+###### Hi All ########
 
-This repo of Ansible is an asset to my ansible learning.
+This is repo of ansible is created to practice ansible.
