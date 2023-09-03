@@ -1,0 +1,13 @@
+- name: Install and run nginx # This name is like name of the playbook, name is not mandatory but this is best practice by seeing name we can understand what the playbook is doing.
+  hosts: mongodb
+
+  tasks: 
+  - name: install nginx
+    ansible.builtin.yum:
+      name: nginx
+      state: installed
+
+  - name: start nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started
