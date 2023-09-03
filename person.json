@@ -1,0 +1,38 @@
+{
+    "name": "bharath",
+    "dob": "01-01-01",
+    "city": "hyd",
+    "country": "india"   
+}
+
+// Nested Syntax
+
+{
+    "name": "bharath",
+    "dob": "01-01-01",
+    //this is address map, here everything is key value pair
+    "address": {
+        "city": "hyd",
+        "country": "india"  
+    }
+}
+
+//Another Nested Syntax -->
+
+{
+    "name": "bharath",
+    "dob": "01-01-01",
+    //this is list of address 
+    "address": [
+        {
+            "city": "hyd",
+            "country": "india",
+            "type": "current"
+        },
+        {
+            "city": "hyd",
+            "country": "india",
+            "type": "permanent"
+        }
+    ]
+}
