@@ -1,0 +1,51 @@
+name: bharath
+dob: 01-01-01
+city: hyd
+country: india
+
+# this syntax is for maping of address
+
+name: bharath
+dob: 01-01-01
+address:
+  city: hyd
+  country: india
+  dno: 102
+  street: gandhi nagar
+
+#this syntax is for list of addresses
+
+name: bharath
+dob: 01-01-01
+addresses:
+- type: permanent
+  city: hyd
+  country: india
+
+- type: current
+  city: florida
+  country: us
+
+
+#list of persons in single yaml file
+- name: bharath
+  dob: 01-01-01
+  addresses:
+  - type: permanent
+    city: hyd
+    country: india
+
+  - type: current
+    city: florida
+    country: us
+#second person information
+- name: mani
+  dob: 01-01-01
+  addresses:
+  - type: permanent
+    city: hyd
+    country: india
+
+  - type: current
+    city: florida
+    country: us
