@@ -1,0 +1,6 @@
+name: ping the node
+hosts: mongodb
+# we always perform mutliple tasks. So these tasks are list of modules/collections
+tasks:
+- name: pinging the server
+  ansible.builtin.ping:
