@@ -1,5 +1,6 @@
 - name: Install and run nginx # This name is like name of the playbook, name is not mandatory but this is best practice by seeing name we can understand what the playbook is doing.
   hosts: mongodb
+  become: yes # this will give root/sudo access
 
   tasks: 
   - name: install nginx
