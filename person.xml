@@ -1,0 +1,32 @@
+<Person>
+    <Name>Bharath</Bharath>
+    <DOB>01-01-01</DOB>
+    <Country>India</Country>
+    <City>Hyd</City>
+</Person>
+
+<!-- Nested Syntax -->
+<Person>
+    <Name>Bharath</Bharath>
+    <DOB>01-01-01</DOB>
+    <Address>
+        <Country>India</Country>
+        <City>Hyd</City>
+    </Address>
+</Person>
+
+<!-- Another Nested Syntax -->
+<Person>
+    <Name>Bharath</Bharath>
+    <DOB>01-01-01</DOB>
+    <Address>
+        <PermAddress>
+            <Country>India</Country>
+            <City>Hyd</City>
+        </PermAddress>
+        <CurrentAddress>
+            <Country>US</Country>
+            <City>Florida</City>
+        </CurrentAddress>
+    </Address>
+</Person>
