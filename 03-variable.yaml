@@ -5,6 +5,7 @@
     COURSE: DevOps
     TRAINER: Siva Kumar
     Duration: 110 hours
+    
   tasks:
   - name: print hello world
     ansible.builtin.debug:
