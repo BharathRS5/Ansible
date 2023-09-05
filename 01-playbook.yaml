@@ -2,6 +2,6 @@
 - name: ping the node
   hosts: mongodb
   # we always perform mutliple tasks. So these tasks are list of modules/collections
-  tasks:
+  tasks: #tasks are nothing but commnds as we use in shell script
   - name: pinging the server
     ansible.builtin.ping:
