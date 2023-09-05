@@ -1,0 +1,6 @@
+- name: variables form inventory
+  hosts: localhost
+  tasks:
+  - name: printing variables from inventory
+    ansible.builtin.debug:
+      msg: "Username is {{MONGO_USERNAME}} and DB Name is {{MONGO_DB_NAME}}"
