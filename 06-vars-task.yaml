@@ -1,5 +1,5 @@
 - name: variables at task level
-  hosts: local host
+  hosts: localhost
   # these variable are parent level/play level
   vars:
    money: 1,00,000/-
