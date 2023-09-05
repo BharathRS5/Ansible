@@ -1,6 +1,6 @@
 - name: variable in ansible
   hosts: mongodb
-  # Here Dclaring variable at play level.
+  # Here Declaring variable at play level.
   vars:
     COURSE: DevOps
     TRAINER: Siva Kumar
