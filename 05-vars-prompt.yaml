@@ -6,6 +6,7 @@
     private: false # this means we can see the value entered on screen 
   - name: PASSWORD
     prompt: Please enter your password
+    private: true # here we can not see value entered on the screen
 
   tasks:
   - name: print variable values from prompt
