@@ -1,5 +1,5 @@
 - name: variables form inventory
-  hosts: mongodb
+  hosts: localhost
   tasks:
   - name: printing variables from inventory
     ansible.builtin.debug:
