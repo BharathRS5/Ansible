@@ -3,8 +3,8 @@
   # Here Dclaring variable at play level.
   vars:
     COURSE: DevOps
-    TRAINER: SivaKumar
-    Duration: 110hours
+    TRAINER: Siva Kumar
+    Duration: 110 hours
   tasks:
   - name: print hello world
     ansible.builtin.debug:
@@ -12,4 +12,4 @@
 
   - name: printing variables
     ansible.builtin.debug:
-      msg: "Hello, I am learnig {{COURSE}}, Trainer is {{TRAINER}}, Durations is {{DURATION}}"
+      msg: "Hello, I am learnig {{COURSE}}, Trainer is {{TRAINER}}, Durations is {{Duration}}"
