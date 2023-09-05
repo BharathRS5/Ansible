@@ -1,5 +1,5 @@
 - name: variable in ansible
-  hosts: mongodb
+  hosts: localhost
   # Here Declaring variable at play level.
   vars:
     COURSE: DevOps
